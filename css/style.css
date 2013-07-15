@@ -1,0 +1,284 @@
+/* Highlight & Borders ------------------------------------------*/
+
+body {border-top: 6px solid #101010;}
+
+
+::selection {
+	background: #EB0079; /* Safari */
+	}
+	
+	
+::-moz-selection {
+	background: #EB0079; /* Firefox */
+	}
+
+
+::-webkit-selection {
+    background:#EB0079; /* Chrome */
+    }
+
+/* Typography ------------------------------------------*/
+
+
+
+#contador, #defaultCountdown {
+    color:#EB0079; 
+    display:block; 
+    font-family:"Helvetica Neue",helvetica,arial,sans-serif; 
+    font-size: 135px;
+    font-weight:bold;
+    letter-spacing:10px;
+    padding-bottom: 20%; 
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    margin: auto;
+    }
+
+
+h2 {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 40px;
+	line-height: normal;
+	color: #101010;
+	text-rendering: optimizeLegibility;
+	}
+  
+  
+h3 {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	line-height: normal;
+	color: #101010;
+	text-rendering: optimizeLegibility;
+	}
+  
+  
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 25px;
+	line-height: normal
+	color: #101010;
+	text-rendering: optimizeLegibility;
+	}
+
+
+.smallcap {
+  font-family: "Courier New", monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  }
+  
+  
+.smallcap-footer {
+  font-family: "Courier New", monospace;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  text-decoration: underline;
+  }
+
+
+.miniheader {
+	padding-bottom: 10px;
+	}
+
+
+.remove-bottom  { margin-bottom: 0; }
+.remove-top     { margin-top: 0; }
+
+
+a {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  text-decoration: none;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 1s ease-in;
+  }
+  
+  
+a:hover {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  color: #EB0079;
+  text-rendering: optimizeLegibility;
+  
+  }
+  
+
+/* Sections ------------------------------------------*/
+
+#section-white {
+	margin: 0 auto;
+	}
+	
+#section-grey {
+	background-color: #f8f8f8;
+	margin: 0 auto;
+	}
+	
+	
+.section {
+	padding-top: 25%;
+	padding-bottom: 15%;
+	width:80%;
+	margin: 0 auto;
+	}
+
+
+#cp.cp {
+	}
+	
+#section-intro {
+	padding-top: 1%;
+	padding-bottom: 8%;
+	width: 800px;
+	margin: auto;
+	}	
+	
+
+#section-1 {
+	background-color:#f8f8f8;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-1 {
+	}
+	
+
+div.section-2 {
+	}
+	
+	
+#section-2 {
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-3 {
+	background-color: #f8f8f8;
+	}
+	
+	
+	#section-3 {
+	background-color:#f8f8f8;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-4 {
+	}
+	
+#section-4 {
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-5 {
+	background-color: #f8f8f8;
+	}
+	
+	
+#section-5 {
+	background-color:#f8f8f8;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-6 {
+	}
+	
+	
+	#section-6 {
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+	
+
+div.section-7 {
+	background-color: #f8f8f8;
+	}
+	
+	
+#section-7 {
+	background-color:#f8f8f8;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-8 {
+	}
+	
+	
+#section-8 {
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+div.section-9 {
+	background-color: #f8f8f8;
+	}
+	
+	
+#section-9 {
+	background-color:#f8f8f8;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+}
+
+	
+div.footer clear {
+	background-color: #101010;
+	}
+
+
+#sources {
+	background-color:#101010;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	width: 800px;
+	margin: auto;
+	}
+
+
+
+
