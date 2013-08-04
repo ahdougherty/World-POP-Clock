@@ -25,11 +25,11 @@ body {border-top: 6px solid #101010;}
     color:#EB0079; 
     display:block; 
     font-family:"Helvetica Neue",helvetica,arial,sans-serif; 
-    font-size: 135px;
+    font-size: 165px;
     font-weight:bold;
     letter-spacing:10px;
     padding-bottom: 20%; 
-    width: 100%;
+    width: 130%;
     text-rendering: optimizeLegibility;
     margin: auto;
     }
@@ -64,7 +64,7 @@ p {
 
 .smallcap {
   font-family: "Courier New", monospace;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
@@ -77,10 +77,12 @@ p {
   font-family: "Courier New", monospace;
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: 800;
   letter-spacing: 2px;
   color: #fff;
   text-rendering: optimizeLegibility;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
   }
 
 
@@ -131,7 +133,7 @@ a:hover {
 	}
 	
 	
-.section {
+#section {
 	padding-top: 25%;
 	padding-bottom: 15%;
 	width:80%;
@@ -263,7 +265,7 @@ div.section-9 {
 	padding-bottom: 5%;
 	width: 800px;
 	margin: auto;
-}
+	}
 
 	
 div.footer clear {

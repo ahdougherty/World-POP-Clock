@@ -9,7 +9,6 @@
 	  <meta name="description" content="A look into the global population boom. 2012-2100." >
       <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
       <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-      <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
       <link rel="stylesheet" href="css/style.css" media="screen">
   </head>
 
@@ -26,9 +25,9 @@
       <!-- population counter -->
       <!-- =================================================-->
       
-      <div class="section">
+      <div id="section">
         <div id="cp" class="cp"><h3>Current Global Population</h3></div>
-        <div id="defaultCountdown" class="grid_12"></div>
+        <div id="defaultCountdown"></div>
         <h1 id="contador"></h1>
       </div>
         
@@ -110,8 +109,7 @@
 	      	<div id="section-8">
 	      	<div class="miniheader">
 		     	  <h3><span class="smallcap">Life Expectancy</span></h3></div>
-				  	<h2>Globally, life expectancy at birth is projected to rise from 68 years in 2005-2010 to 76 years in 2045-2050 and to 81 years in 2095- 2100. 
-.</h2>
+				  	<h2>Globally, life expectancy at birth is projected to rise from 68 years in 2005-2010 to 76 years in 2045-2050 and to 81 years in 2095- 2100.</h2>
 			</div>
 		 </div>
 	
@@ -210,6 +208,24 @@
             $('#defaultCountdown').empty();
         });
     </script>
-      
+    
+    
+    <!-- Fit Text -->
+    <!-- =================================================-->
+
+    
+    <script src="jquery/jquery.fittext.js"></script>
+        <script type="text/javascript">
+          $("#contador").fitText();
+        </script>  
+              
+              
+    <script src="jquery/jquery.fittext.js"></script>
+        <script type="text/javascript">
+          $("#cp").fitText();
+        </script>  
+        
+        
+        
   </body>
 </html>
